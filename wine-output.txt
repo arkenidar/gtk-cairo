@@ -1,0 +1,8 @@
+
+(cairo2d.exe:276): Gdk-WARNING **: 15:49:05.928: Could not open registry key 'Keyboard Layout\Substitutes'. Error code: 2
+
+(cairo2d.exe:276): Gdk-WARNING **: 15:49:05.928: Failed to load keyboard layout DLL for layout 00000410: (NULL)
+
+(cairo2d.exe:276): Gdk-WARNING **: 15:49:05.933: Failed to get device node property {78C34FC8-104A-4ACA-9EA4-524D52996E57},256 size: Elemento non trovato.
+
+(cairo2d.exe:276): Gdk-WARNING **: 15:49:06.358: ../gtk+-3.24.41/gdk/win32/gdkwindow-win32.c:527: DwmEnableBlurBehindWindow (000000000001007a) failed: 80004001

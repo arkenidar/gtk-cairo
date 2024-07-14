@@ -1,0 +1,13 @@
+
+# setup DLLs (requires: python extract-dlls.py)
+source install--repeated-dll-setup.bash # repeat this enough
+
+file install--repeated-dll-setup.bash contains :
+[[
+wine cairo2d.exe &> wine-output.txt
+python extract-dlls.py > script-out.bash
+bash script-out.bash
+]]
+
+# should work at last
+wine cairo2d.exe
