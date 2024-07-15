@@ -12,7 +12,10 @@
 cmake_minimum_required(VERSION 3.10)
 project(gtk-cairo)
 
-set(PKG_CONFIG_EXECUTABLE "C:\\msys64\\mingw64\\bin\\pkgconf.exe")
+if(WIN32)
+    set(PKG_CONFIG_EXECUTABLE "C:\\msys64\\mingw64\\bin\\pkgconf.exe")
+endif()
+
 message(STATUS $ENV{PKG_CONFIG_PATH})
 
 find_package(PkgConfig REQUIRED)
